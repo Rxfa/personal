@@ -1,0 +1,39 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+defaultcontentlanguage = "en"
+title = "Rxfa.io"
+Theme = 'hugo-coder'
+
+[params]
+  author = "Rxfa"
+  info = "All things web"
+  description = "Rxfa's personal website"
+  keywords = "blog,developer,personal, hacking, web"
+  avatarurl = "pfp.jpg"
+
+  since = 2022
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/Rxfa/"
+
+
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "Projects"
+  weight = 2
+  url  = "projects/"
