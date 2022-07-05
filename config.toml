@@ -1,4 +1,4 @@
-baseURL = 'https:/rxfa.github.io/'
+baseURL = 'http://example.org'
 languageCode = 'en-us'
 defaultcontentlanguage = "en"
 title = "</Rxfa>"
