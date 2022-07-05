@@ -1,7 +1,7 @@
-baseURL = 'http://example.org/'
+baseURL = 'https:/rxfa.github.io/'
 languageCode = 'en-us'
 defaultcontentlanguage = "en"
-title = "Rxfa.io"
+title = "</Rxfa>"
 Theme = 'hugo-coder'
 
 [params]
@@ -10,7 +10,7 @@ Theme = 'hugo-coder'
   description = "Rxfa's personal website"
   keywords = "blog,developer,personal, hacking, web"
   avatarurl = "pfp.jpg"
-
+  colorScheme = "dark"
   since = 2022
 
 [taxonomies]
@@ -29,11 +29,19 @@ Theme = 'hugo-coder'
 
 
 # Menu links
+#[[menu.main]]
+#  name = "Projects"
+#  weight = 1
+#  url  = "projects/"
 [[menu.main]]
   name = "Blog"
-  weight = 1
+  weight = 2
   url  = "posts/"
 [[menu.main]]
-  name = "Projects"
-  weight = 2
-  url  = "projects/"
+  name = "Categories"
+  weight = 3
+  url  = "categories/"
+[[menu.main]]
+  name = "Tags"
+  weight = 4
+  url  = "tags/"
